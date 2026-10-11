@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tatooinedesertmod",
+  "version": "1.0.0",
+  "name": "Tatooine Desert Mod",
+  "description": "A Fabric mod for Minecraft 26.3 integrating GeckoLib to create a Tatooine world with custom desert villages, Blaster weapons, and more.",
+  "authors": ["f88484116"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.f88484116.tatooinedesertmod.TatooineDesertMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.26.3",
+    "java": ">=17",
+    "geckolib": "*"
+  }
+}
